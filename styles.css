@@ -1,0 +1,43 @@
+body {
+    display: flex;
+    flex-direction: column;
+    justify-content: baseline;
+    font-family: "Roboto"; sans-serif;
+    align-items: center;
+}
+
+body * {
+    width: 60%;
+    box-sizing: border-box;
+}
+
+header,
+.intro-section {
+    background-color: #1F2937;
+}
+
+header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 0 16px;
+}
+
+
+header img {
+    height: auto;
+    width: 100px;
+    margin-left: -24px;
+}
+
+.links {
+    display: flex;
+    gap: 2em;
+    justify-content: flex-end;
+}
+
+a {
+    color: white;
+    text-decoration: none;
+    width: auto;
+}
